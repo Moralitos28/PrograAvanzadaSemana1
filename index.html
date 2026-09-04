@@ -4,230 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explora Costa Rica</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-
-        .encabezado {
-            background-color: #234;
-            color: white;
-            padding: 20px;
-        }
-
-        .titulo {
-            font-size: 32px;
-            font-weight: bold;
-        }
-
-        .menu {
-            margin-top: 15px;
-        }
-
-        .opcion {
-            display: inline-block;
-            margin-right: 20px;
-            color: white;
-        }
-
-        .contenido {
-            width: 90%;
-            margin: 30px auto;
-        }
-
-        .bloque {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .subtitulo {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-
-        .tarjetas {
-            display: flex;
-            gap: 20px;
-        }
-
-        .tarjeta {
-            width: 30%;
-            background-color: #eee;
-            padding: 15px;
-        }
-
-        .tarjeta img {
-            width: 100%;
-        }
-
-        .nombre {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-
-        .boton {
-            display: inline-block;
-            background-color: #234;
-            color: white;
-            padding: 10px 15px;
-            margin-top: 10px;
-        }
-
-        .pie {
-            background-color: #234;
-            color: white;
-            padding: 25px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <div class="encabezado">
+    <header>
 
-        <div class="titulo">
-            Explora Costa Rica
-        </div>
+        <h1>Explora Costa Rica</h1>
 
-        <div class="menu">
-            <span class="opcion">Inicio</span>
-            <span class="opcion">Destinos</span>
-            <span class="opcion">Actividades</span>
-            <span class="opcion">Contacto</span>
-        </div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Destinos</a>
+            <a href="#">Actividades</a>
+            <a href="#">Contacto</a>
+        </nav>
 
-    </div>
+    </header>
 
 
-    <div class="contenido">
+    <main>
 
-        <div class="bloque">
+        <section>
 
-            <div class="subtitulo">
-                Descubre Costa Rica
-            </div>
+            <h2>Descubre Costa Rica</h2>
 
-            <div>
+            <p>
                 Costa Rica ofrece una gran variedad de destinos naturales,
                 playas, volcanes y parques nacionales.
-            </div>
+            </p>
 
-        </div>
+        </section>
 
 
-        <div class="bloque">
+        <section>
 
-            <div class="subtitulo">
-                Destinos recomendados
-            </div>
+            <h2>Destinos recomendados</h2>
 
             <div class="tarjetas">
 
-                <div class="tarjeta">
+                <article>
 
                     <img src="arenal.jpg"
                          alt="Volcán Arenal">
 
-                    <div class="nombre">
-                        Volcán Arenal
-                    </div>
+                    <h3>Volcán Arenal</h3>
 
-                    <div>
+                    <p>
                         Uno de los volcanes más conocidos de Costa Rica,
                         rodeado de naturaleza y aguas termales.
-                    </div>
+                    </p>
 
-                    <div class="boton">
-                        Ver destino
-                    </div>
+                    <a href="#">Ver destino</a>
 
-                </div>
+                </article>
 
 
-                <div class="tarjeta">
+                <article>
 
                     <img src="manuel-antonio.jpg"
                          alt="Parque Nacional Manuel Antonio">
 
-                    <div class="nombre">
-                        Manuel Antonio
-                    </div>
+                    <h3>Manuel Antonio</h3>
 
-                    <div>
+                    <p>
                         Un parque nacional que combina bosque tropical,
                         vida silvestre y playas.
-                    </div>
+                    </p>
 
-                    <div class="boton">
-                        Ver destino
-                    </div>
+                    <a href="#">Ver destino</a>
 
-                </div>
+                </article>
 
 
-                <div class="tarjeta">
+                <article>
 
                     <img src="monteverde.jpg"
                          alt="Bosque de Monteverde">
 
-                    <div class="nombre">
-                        Monteverde
-                    </div>
+                    <h3>Monteverde</h3>
 
-                    <div>
+                    <p>
                         Una de las regiones de bosque nuboso más reconocidas
                         del país.
-                    </div>
+                    </p>
 
-                    <div class="boton">
-                        Ver destino
-                    </div>
+                    <a href="#">Ver destino</a>
 
-                </div>
+                </article>
 
             </div>
 
-        </div>
+        </section>
 
 
-        <div class="bloque">
+        <section>
 
-            <div class="subtitulo">
-                Información importante
-            </div>
+            <h2>Información importante</h2>
 
-            <div>
+            <p>
                 Antes de visitar un parque nacional revise los horarios,
                 condiciones climáticas y recomendaciones oficiales.
-            </div>
+            </p>
 
-        </div>
+        </section>
 
-    </div>
+    </main>
 
 
-    <div class="pie">
+    <footer>
 
-        <div>
-            Explora Costa Rica
-        </div>
+        <p>Explora Costa Rica</p>
 
-        <div>
-            Proyecto educativo de Diseño Web
-        </div>
+        <p>Proyecto educativo de Diseño Web</p>
 
-        <div>
-            Universidad Cenfotec
-        </div>
+        <p>Universidad Cenfotec</p>
 
-    </div>
+    </footer>
 
 </body>
 </html>
